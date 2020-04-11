@@ -1,5 +1,5 @@
 body{
-    background-image: url(2.jpg);
+    background-image: url(images/2);
     color:white;
     background-position: center;
     background-size: 2000px;
@@ -29,7 +29,7 @@ nav{
     font-size: xx-large;
 }
 .log{
-    background-image: url(aaa.png);
+    background-image: url(images/aaa);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
