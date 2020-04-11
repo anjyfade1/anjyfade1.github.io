@@ -29,7 +29,7 @@ nav{
     font-size: xx-large;
 }
 .log{
-    background-image: url("images/aaa.png");
+    background-image: url(..\images/aaa.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
