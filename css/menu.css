@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(rgb(255,255,255,0.9),rgba(255,255,255,0.9)), url(/AJ/images/bg3.jpg);
+    background-image: linear-gradient(rgb(255,255,255,0.9),rgba(255,255,255,0.9)), url(..\images/bg3.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -103,7 +103,7 @@ background-repeat: no-repeat;
     padding: 20px;
 }
 .image-1{
-    background-image: url(/AJ/images/g8.jpg);
+    background-image: url(..\images/g8.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ background-repeat: no-repeat;
     grid-row-end: 2;
 }
 .image-2{
-   background-image: url(/AJ/images/g2.jpg);
+   background-image: url(..\images/g2.jpg);
     background-position: center;
     background-size: cover;
     border: none;
@@ -125,7 +125,7 @@ background-repeat: no-repeat;
 
 }
 .image-3{
-    background-image: url(/AJ/images/g3.jpg);
+    background-image: url(..\images/g3.jpg);
     background-position: center;
     background-size: cover;
     border: none;
@@ -135,7 +135,7 @@ background-repeat: no-repeat;
     grid-row-end: 2;
 }
 .image-4{
-   background-image: url(/AJ/images/g4.jpg);
+   background-image: url(..\images/g4.jpg);
     background-position: center;
     background-size: cover;
     border: none;
@@ -145,7 +145,7 @@ background-repeat: no-repeat;
     grid-row-end: 3;
 }
 .image-5{
-   background-image: url(/AJ/images/g5.jpg);
+   background-image: url(..\images/g5.jpg);
     background-position: center;
     background-size: cover;
     border: none;
@@ -155,7 +155,7 @@ background-repeat: no-repeat;
     grid-row-end: 3;
 }
 .image-6{
-   background-image: url(/AJ/images/g6.jpg);
+   background-image: url(..\images/g6.jpg);
     background-position: center;
     background-size: cover;
     border: none;
