@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/a2.jpg);
+    background-image:images/2.jpg;
     color:white;
     background-position: center;
     background-size: 2000px;
@@ -29,7 +29,7 @@ nav{
     font-size: xx-large;
 }
 .log{
-    background-image: url(anjyfade1.github.io/images/aaa.png);
+    background-image:images/aaa.png;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
