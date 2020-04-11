@@ -1,0 +1,139 @@
+body{
+    background-image: url(/AJ/images/2.jpg);
+    color:white;
+    background-position: center;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+}
+nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+   list-style-type: none; 
+   text-decoration: none
+}
+.logo a{
+    padding: 5px;
+}
+.b a{
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+    font-size: xx-large;
+}
+.log{
+    background-image: url(/AJ/images/aaa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -999999px;
+    height: 60px;
+    width:60px;
+    text-decoration: none;
+    color:inherit;
+   position: relative;
+   top: -15px;
+   border-radius: 50%;
+}
+.mobile{
+    display: none;
+}
+.links{
+    list-style-type: none; 
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+}
+.links a{
+    text-decoration: none;
+    color: inherit; 
+    padding: 20px;  
+}
+.links a:hover{
+    color:red;
+}
+.links a:active{
+    color: grey;
+}
+section{
+    text-align: center;
+    padding-top: 150px;
+}
+.title{
+    margin-bottom: -7px;
+    font-size: xx-large;
+font-weight: normal;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subtitle{
+    font-size: 200;
+    font-weight: 500;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+}
+.search{
+    width: 420px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid white;
+}
+.search::placeholder{
+    position: relative;
+    left: 15px;
+}
+.search-button{
+    position: relative;
+    left: 15px;
+    color: white;
+    outline: none;
+    background-color:black;
+    padding: 10px;
+   width: 150px;
+   text-align: center;
+   height: 40px;
+   border-radius: 5px;
+   border: 1px solid white;
+}
+.search-button:hover{
+    background-color: red;
+}
+@media screen and (max-width: 700px){
+    .mobile{
+        padding-top:0px ;
+      display: inline-block;
+       position: relative;
+       top: -15px;
+    }
+    .desktop{
+        display: none;
+    }
+    body{
+        background-position: center;
+        background-size: initial;
+    }
+    .search-button{
+        margin-top: 10px;
+    }
+    .title{
+        text-align: center;
+    }
+    .subtitle{
+        text-align: center;
+    }
+}

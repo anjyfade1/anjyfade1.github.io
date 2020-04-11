@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/AJ/images/bg1.jpg);
+}
+.links li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+    padding: 20px;
+
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    float: right;
+}
+.links a:hover{
+    color:red;
+}
+.links a:active{
+    color:grey;
+}
+.title{
+   justify-items: center;
+   text-align: center;
+    padding-top:50px; 
+}
+h4{
+   font-weight: lighter; 
+}
+.image-container{
+    height: 100vh;
+    border: none;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    grid-column-gap: 100px;
+    justify-content: center;
+   
+}
+.image-item{
+    border: 5px solid;
+    padding: 20px;
+    background-color: cadetblue;
+    position: relative;
+    top: 100px;
+}
+.img-1{
+background-color:rgba(255,255,255,0.7);
+box-shadow: 0 20px 25px rgba(94,88,88,0.5);
+border: none;
+text-align: center;
+}
+.img-2{
+    background-color:rgba(255,255,255,0.7);
+    box-shadow: 0 20px 25px rgba(94, 88, 88, 0.5);
+    border: none;
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+    color: rgb(0, 166, 231);
+}
+.a:active{
+    color: red;
+}
+h3{
+    color: red;
+}
+@media screen and (max-width: 1000px) {
+    nav{
+        display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .image-container{
+         display: block;
+    }
+}
